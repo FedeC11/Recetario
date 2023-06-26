@@ -1,0 +1,170 @@
+body {
+	max-width: 1440px;
+	margin: auto;
+    box-sizing: border-box;
+}
+h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;  
+    margin: 0%; 
+}
+h2{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+h3{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+.margen{
+    margin: auto;
+    margin-left: 100px;
+    margin-top: 54px;
+}
+.encabezado{
+    display: flex;
+    flex-direction: column;
+    width: 1000%;
+    margin: auto;
+    margin-left: 0%;
+}
+.encabezado p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    width: 600px;
+}
+img{
+    width: 80%;
+    margin: 20px 0px 20px 0px;
+}
+.ingredientes{
+    display: flex;
+    width: 80%;
+}
+
+.ingredientes_in{
+    width: 600px;
+}
+.ingredientes_in p{
+    padding-left: 10px;
+    width: 554px;
+}
+.ingredientes_in input{
+    width: 15px;
+    height: 15px;
+    margin: 0;
+    
+}
+
+.checkbox_ingredientes{
+    width: 560px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.checkbox_ingredientes p {
+    margin: 0px;
+}
+
+.lista{
+    display: flex;
+}
+
+.icon{
+    width: 40px;
+    
+    height: 40px;
+}
+.descripcion{
+    display: flex;
+}
+.icon_inicio{
+    width: 15px;
+    height: 15px;
+}
+.descripcion p {
+    margin-left: 10px;
+}
+.other_space{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+
+}
+.bloque{
+    box-sizing: border-box;
+    width: 216px;
+    height: 367px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px 1px #ebe4e4;
+    padding-left: 40px;
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    
+}
+.bloque p {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.division{
+    display: flex;
+    gap: 10px;
+}
+.subtitles{
+    font-weight: 700;
+    font-size: 10px;
+    color: #BDBDBD;
+}
+/*instrucciones*/
+.pasos{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+.pasos_p{
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    
+}
+.pasos_p p{
+    width: 528px;
+    margin: 0;
+}
+.number{
+    font-family: 'Playfair Display', serif;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    background-color: #F2994A;
+    font-size: 24px;
+    color: #fff;
+    border-radius: 5px;  
+}
+ .number_int{
+        margin-top: 5px;
+    }
+.referencia{
+    color: #BDBDBD;
+    
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.licencia{
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+    font-size: 14px;
+    color: #828282;
+}
